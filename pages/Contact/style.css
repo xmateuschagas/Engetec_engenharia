@@ -1,0 +1,70 @@
+form, .section-table {
+    margin: 40px 0;
+    padding-left: 40px;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.field-standard {
+    margin: 20px 0;
+}
+
+.input-standard {
+    width: 50%;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+}
+
+.label-checkbox {
+    margin: 20px 0;
+}
+
+.submit {
+    width: 40%;
+    border: none;
+    color: white;
+    padding: 15px 0;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 1s all;
+    background: orange;
+}
+
+.submit:hover {
+    transform: scale(1.2);
+    background: darkorange;
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+td, th {
+    border: 1px solid #000000;
+    vertical-align: middle;
+    padding: 8px 15px;
+}
+
+@media screen and (max-width: 480px) { 
+    .input-standard {
+        width: fit-content;
+    }
+
+    .submit {
+        width: auto;
+        padding: 20px;
+    }
+}
