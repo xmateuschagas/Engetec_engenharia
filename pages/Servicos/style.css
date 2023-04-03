@@ -1,0 +1,56 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+}
+.cabecalho nav {
+    display: flex;
+    justify-content: flex-end;
+ }
+
+
+.Servicos {
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 940px;
+}
+
+.Servicos li {
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    width: 30%;
+}
+
+.Servicos li:hover {
+    border-color: #C78C19;
+    cursor: pointer;
+}
+
+.Servicos li:hover h2 {
+    font-size: 34px;
+}
+
+.Servicos li:active {
+    border-color: #088C19;
+}
+
+.Servicos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Servicos-description {
+    font-size: 18px;
+}
